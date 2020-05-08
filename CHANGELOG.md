@@ -10,9 +10,9 @@ and only if it's not found will write to the new default location.
 
 This release includes several major improvements to network and database stack:
 - Support for `eth/64` protocol and Node Discovery v4 `Ethereum Node Records` extension.
-- Accounts bloom is removed which should decrease the size of the database.
+- Accounts bloom is removed which should decrease the database size.
 
-Due to database changes this is a one-way upgrade.
+**Due to database changes this is a one-way upgrade. Please back up your database if you plan to continue using Parity-Ethereum v2.7.2.**
 
 Note that this release drops support for IPFS and `eth/62` protocol. Additionally, it marks light client, private transactions and updater as deprecated features which may be removed in a future release.
 
